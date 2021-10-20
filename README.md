@@ -1,6 +1,6 @@
 <h1 align="center">WorkshopDev</h1>
 
-### Formulário da cadastro e login
+### Formulário de cadástro e login
 
 Projeto da **Rocketsaet** feito pelo *Mayk Brito*.
 
