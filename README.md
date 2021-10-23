@@ -1,6 +1,6 @@
 <h1 align="center">WorkshopDev</h1>
 
-### Formulário de cadástro e login
+### Formulário de cadástro de ideais
 
 Projeto da **Rocketsaet** feito pelo *Mayk Brito*.
 
