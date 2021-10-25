@@ -1,0 +1,44 @@
+@use 'mixinsAndVariables/mixins' as *;
+
+* {
+    @include pattern;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #EEEEEE;
+    @include flexCenter
+}
+
+.lado__left, main {
+    @include flexCenterColumn;
+}
+
+.hide {
+    display: none;
+}
+
+img {
+    width: 12%;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+h4 {
+    opacity: .2;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    display: block;
+    color: #6C63FF;
+    text-decoration: none;
+    text-align: end;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 1rem 1rem;
+}

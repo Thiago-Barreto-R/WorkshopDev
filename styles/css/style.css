@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #EEEEEE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lado__left, main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hide {
+  display: none;
+}
+
+img {
+  width: 12%;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  opacity: 0.2;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  display: block;
+  color: #6C63FF;
+  text-decoration: none;
+  text-align: end;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding: 1rem 1rem;
+}
+
+.lado__left {
+  width: 65%;
+  margin-top: -2rem;
+}
+.lado__left header h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 0.3rem;
+}
+.lado__left header h1 strong {
+  font-family: "MuseoModerno", sans-serif;
+}
+.lado__left header h1 span {
+  font-family: "Karma", sans-serif;
+  font-size: 2.5rem;
+}
+.lado__left header h2 {
+  margin: -1.2rem 0 0 0;
+  font-size: 2.2rem;
+  text-align: end;
+  font-family: "Italianno";
+  color: #6C63FF;
+}
+.lado__left main {
+  gap: 1rem;
+  padding: 0 1.1rem;
+}
+.lado__left main .text__start {
+  width: 65%;
+  font-size: 1.3rem;
+}
+.lado__left main .text__center {
+  width: 65%;
+  font-size: 1.3rem;
+}
+.lado__left main .text__end {
+  width: 65%;
+  font-size: 1.3rem;
+}
+.lado__left .btns {
+  width: 65%;
+  margin: 1.5rem 0 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lado__left .btns .btn__add {
+  padding: 0.5rem 1rem;
+  border: none;
+  color: #6C63FF;
+}
+.lado__left .btns .btn__view {
+  padding: 0.5rem 2rem;
+  background: #6C63FF;
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+}
+.lado__left span {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+.lado__left span i {
+  color: red;
+}
+
+.lado__direito {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 4rem;
+}
+.lado__direito .card {
+  background: #fff;
+  padding: 0.5rem 0.5rem;
+  width: 80%;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+.lado__direito .card .card__text {
+  margin-left: 1.5rem;
+}
+
+/*# sourceMappingURL=style.scss.map */
+
+/*# sourceMappingURL=style.css.map */

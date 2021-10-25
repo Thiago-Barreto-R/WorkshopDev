@@ -1,0 +1,34 @@
+// PATTERNS
+
+@mixin pattern {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// FLEX
+
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flexCenterColumn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@mixin flexSpaceMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin flexSpaceAround {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

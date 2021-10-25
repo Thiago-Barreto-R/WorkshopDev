@@ -1,0 +1,101 @@
+@use 'mixinsAndVariables/mixins' as *;
+
+.lado__left {
+    width: 65%;
+    margin-top: -2rem;
+
+    header {
+
+        h1 {
+            text-transform: uppercase;
+            font-size: 2.5rem;
+            letter-spacing: .3rem;
+           
+            strong {
+                font-family: 'MuseoModerno', sans-serif;
+            }
+            span {
+                font-family: 'Karma', sans-serif;
+                font-size: 2.5rem;
+            }
+        }
+        h2 {
+            margin: -1.2rem 0 0 0;
+            font-size: 2.2rem;
+            text-align: end;
+            font-family: 'Italianno';
+            color: #6C63FF;
+        }
+    }
+
+    main {
+        gap: 1rem;
+        padding: 0 1.1rem;
+
+        .text__start {
+            width: 65%;
+            font-size: 1.3rem;
+
+        }
+        .text__center {
+            width: 65%;
+            font-size: 1.3rem;
+
+        }
+        .text__end {
+            width: 65%;
+            font-size: 1.3rem;
+
+        }
+    }
+
+    .btns {
+        width: 65%;
+        margin: 1.5rem 0 3rem;
+        @include flexSpaceMain;
+
+        .btn__add {
+            padding: .5rem 1rem;
+            border: none;
+            color: #6C63FF;
+        }
+
+        .btn__view {
+            padding: .5rem 2rem;
+            background: #6C63FF;
+            border: none;
+            border-radius: .5rem;
+            color: #fff;
+        }
+    }
+
+    span {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
+
+        i {
+            color: red;
+        }
+    }
+}
+
+.lado__direito {
+    @include flexCenterColumn;
+    gap: 1.5rem;
+    margin-top: 4rem;
+
+    .card {
+        background: #fff;
+        padding: .5rem .5rem;
+        width: 80%;
+        border-radius: .5rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-family: 'Roboto', sans-serif;
+
+        .card__text {
+            margin-left: 1.5rem;
+        }
+    }
+}
