@@ -84,9 +84,15 @@ a {
   width: 65%;
   font-size: 1.3rem;
 }
+.lado__left main .text__center strong {
+  color: #6C63FF;
+}
 .lado__left main .text__end {
   width: 65%;
   font-size: 1.3rem;
+}
+.lado__left main .text__end strong {
+  color: #6C63FF;
 }
 .lado__left .btns {
   width: 65%;

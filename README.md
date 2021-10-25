@@ -11,7 +11,7 @@ Projeto da **Rocketsaet** feito pelo *Mayk Brito*.
 
 ### Fotos da Interface
 
-<img src="styles/svg/interface-onePage1.svg">
+<img src="styles/svg/InterfacePageOne.svg">
 
 #### Fazendo o projeto para voltar a programar com mais animo e frequência.
 
